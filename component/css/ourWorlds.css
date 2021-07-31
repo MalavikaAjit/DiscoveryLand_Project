@@ -8,13 +8,6 @@ html {
 a:hover{
     color: #ffffff;
 }
-
-
-.overlay {
-    background-color: rgba(1, 1, 1, 0.281);
-    height: 100%;
-}
-
 .firstSection {
     color: #ffffff;
     color: white;
@@ -85,9 +78,10 @@ a:hover{
 
 .item-list {
     cursor: pointer;
+    text-decoration:none;
 }
 
-.item-list:visited, .item-list:link {
+.item-list:visited {
     color: #ffffff;
     text-decoration: none;
 }
@@ -102,23 +96,14 @@ a:hover{
 }
 
 
-/***** Last section details  *****/
+/***** footer  *****/
 
 .lastSec-right {
-    color: white;
-    /* padding: 12px 16px; */
+    color: white; 
     padding: 0;
     text-decoration: none;
     display: block;
 }
-
-.a-div {
-    padding: 10px 50px;
-    margin: 10px;
-}
-
-
-
 .lastSec-right:hover {
     border-bottom-style: solid ;
     border-bottom-width: 1px;
@@ -136,8 +121,6 @@ a:hover{
     display: block;
 }
 
-/***** footer *****/
-
 .footer {
     line-height: 30px;
     font-size: 16px;
@@ -150,20 +133,13 @@ a:hover{
     padding-bottom: 100px;
 }
 
-.footer-ul {
+.lastSection-list {
     list-style-type: none;
 }
 
 .details {
     font-size: 14px;
     font-family: 'Work Sans', sans-serif;
-}
-
-.para {
-    font-family: 'Work Sans', sans-serif;
-    color: #494949;
-    font-weight: 500;
-    letter-spacing: 0.5px;
 }
 /**one worlds**/
 body {
@@ -186,7 +162,6 @@ p {
     padding: 0;
     margin: 0;
 }
-
 .image {
     width: 100%;
     height: 100%;
