@@ -386,7 +386,7 @@ img:hover{
     padding: 0 150px;
 }
 
-.a-section-container {
+.section4-container {
     display: flex;
     flex-direction: row;
 }
@@ -398,13 +398,9 @@ img:hover{
     padding-bottom: 2px;
 }
 
-.sec4-div {
-    padding: 10px 30px 10px 0px;
-}
-
 a {
     text-decoration: none;
-    color: var(--text-gray);
+    color: grey;
 }
 #lifewellexpcards {
     background-color: white;
@@ -444,10 +440,10 @@ a {
     font-weight: 200;
 }
 .globe {
-    margin-top: 10px;
-    height: 250%;
-}
+    margin-top: 3px;
+    height: 250%
 
+}
 .bg-globe {
     background-image: url("../assets/home_page/globe-usa.jpg");
     background-position: left;
@@ -464,23 +460,7 @@ a {
     margin-left: 32rem;
     z-index: 1;
 }
-
-.flower-img {
-    height: 400px;
-    width: 250px;
-    position: absolute;
-    right: 40px;
-    top: -40px;
-    z-index: 2;
-}
-
-.div-1 {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-
-.arrow-btns {
+.arrow {
     display: flex;
 }
 
@@ -516,76 +496,6 @@ a {
 .sec4-para-tag {
     color: #fff;
 }
-
-/*@media only screen and (max-width: 1255px) {
-    .black-box {
-        width: 50%;
-        padding: 10% 4%;
-    }
-}
-
-@media only screen and (max-width: 999px) {
-
-    .flower-img {
-        height: 80%;
-        width: 40%;
-        position: absolute;
-        right: 20px;
-        top: -20px;
-    }
-
-    .globe-icons {
-        padding: 0;
-        justify-content: space-between;
-    }
-
-    .icon-text {
-        font-size: 10px;
-    }
-
-    .sec4-para-tag {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-
-    .left-arrow,
-    .right-arrow {
-        margin: 0 10px;
-    }
-
-    .globe-icons {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .black-box {
-        width: 50%;
-        height: 100%;
-    }
-}*/
-
-/*@media only screen and (max-width:699px) {
-    .sec4-text {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .image2 {
-        margin: 0;
-    }
-
-    .black-box {
-        width: 70%;
-        margin-left: 15%;
-
-    }
-
-    .sec4-para-tag,
-    .location {
-        font-size: x-small;
-    }
-}*/
 .section2 {
     background-color: #fff;
     width: 100%;
@@ -595,16 +505,6 @@ a {
     padding: 5%;
     width: 50%;
 }
-
-/*.image-container {
-    width: 100%;
-    background-image: url("../assets/second-bckgrd.jpg");
-    background-position: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    padding: 6% 0 4%;
-}*/
 
 .text1-sec4 {
     font-size: calc(30.66667px + 1.06667vw);
@@ -618,54 +518,3 @@ a {
     font-weight: 100;
     font-style: normal;
 }
-
-/*.paragraph {
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'messina-sans', sans-serif;
-    color: #1f1f1f;
-    line-height: 1.9;
-    padding-bottom: 10%;
-    width: 80%;
-}*/
-
-/*.man-img {
-    width: 100%;
-}
-
-.ocean {
-    padding: 9% 0;
-}
-
-@media only screen and (max-width:1255px) {
-
-    .man-img {
-        width: 100%;
-    }
-
-    .paragraph {
-        font-size: 14px;
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width:890px) {
-    .image-container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .text-image {
-        width: auto;
-    }
-
-    .paragraph {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .ocean {
-        padding: 9% 5%;
-    }
-}*/
