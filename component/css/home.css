@@ -419,29 +419,21 @@ header {
 }
 
 
-button,
-select {
+button{
     appearance: none;
     border-radius: 0;
     border: 0;
-    outline: 0;
-    background-color: transparent;
-}
-
-button {
-    box-shadow: none;
+    background-color:transparent;
     padding: 0;
     margin: 1000px 0px;
     cursor: pointer;
-}
-
-button,
-textarea {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
 }
+
+
 #lifewellexpcards {
     background-color: white;
     height: 100%;
@@ -475,17 +467,13 @@ textarea {
     font-size: 30px;
     align-items: center;
 }
-.buttoncircle {
+/* .buttoncircle {
     border: 2px solid white;
     height: 90px;
     position: relative;
     width: 90px;
     border-radius: 120px;
-}
-.title {
-    font-weight: 200;
-}
-
+} */
 .arrow-btn {
     border: 2px solid #fff;
     border-radius: 100%;
@@ -501,19 +489,21 @@ textarea {
     margin-top: 30px;
     height: 100%;
     width: 100%;
+    /* padding-bottom: 5%; */
 }
 
 .bg-globe {
     background-image: url("../assets/home_page/globe-usa.jpg");
     background-position: left;
-     /* background-size:contain; */
+    background-size:contain; 
+    background-repeat: no-repeat;
     height: 100%;
     position: relative;
     padding-bottom: 10%;
 
 }
 
-.flower-img {
+.overlaping-img {
     height: 400px;
     width: 250px;
     position: absolute;
@@ -550,7 +540,7 @@ textarea {
     padding: 0 30px;
 }
 
-.globe-icons {
+.black-box-icons {
     display: flex;
     justify-content: space-around;
     /* padding: 20px; */
@@ -558,9 +548,9 @@ textarea {
     padding-bottom: 40%;
 }
 
-.weather,
-.wind,
-.direction {
+.temp,
+.icon2,
+.compass {
     display: flex;
     flex-direction: column;
     width: 20px;
