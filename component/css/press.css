@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@font-face{
+    font-family: 'gotham';
+    src: url(../assets/fonts/GothamLight.ttf) format('truetype') ;
+    font-weight: 100;
+
+}
+.section-1{
+    background-image: url(../assets/press/press.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+   
+}
+.navbar-brand img{
+    width: 177px;
+}
+.nav-link{
+    color: seashell;
+    padding: 50px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: seashell;
+}
+.main-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.main-container h1{
+    color:#fff;
+    font-size: calc(26px + 4.2vw);
+    line-height: calc(14px + 4.2vw);
+    font-family: 'PT serif', serif;
+    transform: translateX(12vw);
+    
+}
+.main-container h1 span{
+    font-family: 'gotham';
+
+}
+.scroll{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 40px;
+    margin-bottom: 5em;
+}
+.scroll p {
+    font-family: 'gotham';
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.main-container p{
+    color: seashell;
+    text-align: start;
+    font-size: 4rem;
+    padding-left:21%;
+    font-family: unset;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+.scroll button{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 30px;
+    transform: translateY();
+}
+.scroll button svg{
+    fill: #fff;
+    transform: rotate(90deg);
+}
+/*****section-2***/
+
+.section-2 {
+    background-color: #f3f3f3;
+    position: relative;
+    height: 100%;
+    padding: 5% 5%;
+    padding-bottom: 0;
+}
+.sec2-img {
+    position: absolute;
+    height: 90%;
+    width: 70%;
+}
+.sec2-heading {
+    font-family: 'PT serif', serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.fst-head{
+    margin-top: -4%;
+}
+.first-heading{
+    font-family: 'PT serif', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+.box {
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 500px;
+    height: 500px;
+    padding: 5% 5%;
+    margin-top: 5%;
+    margin-left: 55%;
+}
+
+.sec2-title {
+    font-size: 20px;
+    font-family: 'gotham';
+    color: #1f1f1f;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+}
+
+.sec2-para {
+    padding-bottom: 0%;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+
+.sec2-a,
+.sec3-a {
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #444343;
+    padding: 5% 10%;
+    margin-top: 5%;
+}
+
+.sec2-a:hover {
+    text-decoration: none;
+    background-color: #dadada9c;
+    color: #000;
+}
+
+.sec2-btn {
+    background-color: #f3f3f3;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-pages {
+    padding: 10px;
+    margin: 0;
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin: 0 20px;
+
+}
+/* section-3 */
+
+.section-3 {
+    background-color: #fff;
+    height: 100%;
+    padding: 5%;
+}
+
+.sec3-content {
+    padding: 5% 0;
+    padding-bottom: 0;
+}
+.sec3-title {
+    font-family: 'PT serif', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.sec3-para {
+    font-size: 22px;
+    font-family: 'gotham';
+    color: #1f1f1f;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+    padding-bottom: 5%;
+}
+
+.left-para {
+    padding-right: 5%;
+}
+
+.right-para {
+    padding-left: 5%;
+}
+
+.sec3-col {
+    padding-bottom: 10%;
+}

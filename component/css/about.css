@@ -3,12 +3,21 @@
     padding:0;
     box-sizing: border-box;
 } 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@font-face{
+    font-family: 'gotham';
+    src: url(../assets/fonts/GothamLight.ttf) format('truetype') ;
+    font-weight: 100;
+
+}
 .section-1{
     background-image: url(../assets/about_page/about.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    position: relative;
+   
 }
 .navbar-brand img{
     width: 177px;
@@ -23,20 +32,38 @@
 }
 .main-container{
     display: flex;
-    flex-direction: column;
-    margin: 50px;
-    text-align: center;
-    padding:100px
+    height: 100%;
+    align-items: center;
+    
 }
 .main-container h1{
-    font-size:calc(20.66667px + 3.06667vw);
-    font-family:serif;
-    color:seashell;
-    letter-spacing: 6px;
-    text-align: start;
-    padding-left: 20%;
-    line-height: 0.3;
+    color:#fff;
+    font-size: calc(26px + 4.2vw);
+    line-height: calc(14px + 4.2vw);
+    font-family: 'PT serif', serif;
+    transform: translateX(12vw);
     
+}
+.main-container h1 span{
+    font-family: 'gotham';
+
+}
+.scroll{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 40px;
+    margin-bottom: 5em;
+}
+.scroll p {
+    font-family: 'gotham';
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
 }
 .main-container p{
     color: seashell;
@@ -47,14 +74,33 @@
     font-weight: lighter;
     letter-spacing: 6px;
 }
+.scroll button{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 30px;
+    transform: translateY();
+}
+.scroll button svg{
+    fill: #fff;
+    transform: rotate(90deg);
+}
+
+.section-6,
 .section-2 ,
-.section-3 {
+.section-3,
+.section-5 {
     background-color: #fff;
-    height: 100vh;
+    /* height: 100vh; */
     background-size: cover;
 }
+.main-content{
+    width: 70%;
+}
 .section2-content {
-   padding: 10%;
+   padding: 100px 0;
 
 }
 .figure img{
@@ -70,6 +116,7 @@
     font-weight:400;
     color: rgb(73, 70, 70);
 }
+
 .s2-para{
     display: flex;
     text-align: left;
@@ -87,7 +134,9 @@
     color: rgb(0, 0, 0);
 }
 .sec3-bg{
+    /* padding-top: 40%; */
     padding: 5%;
+
 }
 .sec3-bg img{
     width: 100%;
@@ -96,6 +145,161 @@
 }
 .section-3{
     padding-top: 39%;    
+}
+/***section-4**/
+.section-4 {
+    background-color: #fff;
+    /* height: 100vh; */
+    background-size: cover;
+    padding:10vw 0;
+}
+#container {
+    position: relative;
+    height: 500px;
+     overflow: hidden; 
+    
+}
+.text1-text2 {
+    margin: 0px 100px;
+    padding-right:6%;
+}
+.section-4 .swiper-slide  img{
+    min-height:500px;
+    object-fit: cover;
+}
+.section-4 .swiper-slide{
+    overflow: hidden;
+}
+.section-3 {
+    background-color: #fff;
+    /* height:160%; */
+    padding: 50px 0;
+   
+}
+.text1 {
+    font-size: calc(30.66667px + 1.06667vw);
+    font-family: gt-sectra;
+    font-style: normal;
+    /* padding-left: 20%;
+    padding-right: 40%; */
+}
+
+/* .text2 {
+    font-size: calc(20.66667px + 1.06667vw);
+    font-family: gotham;
+    font-weight: 100;
+    font-style: normal;
+    /* padding-left: 20%; */
+
+/****section-5***/
+.figure-sec-5{
+    width:80%;
+    height: 80%;
+    object-fit: fill;
+ }
+ .s5-para{
+    display: flex;
+    text-align: left;
+    font-family: unset;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    width: 60%;
+    font-size: 15px;
+    padding-top: 2%;
+
+}
+.s5-head{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(79, 76, 76);
+    padding-top: 5%;
+    font-family: 'PT serif', serif;
+}
+.sec5-bottom-img {
+    /* margin-top: 70px; */
+    width: 80%;
+    height: 80%;
+    margin-top: 70px;
+}
+/******footer***/
+.lastSec-right {
+    color: white; 
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.lastSec-right:hover {
+    border-bottom-style: solid ;
+    border-bottom-width: 1px;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+.footer {
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 0%;
+}
+.lastSection{
+    padding-left: 50%;
+}
+.lastSection-list:hover{
+    padding-left: 50%;
+    text-decoration:underline;
+}
+.lastSection-list {
+    list-style-type: none;
+}
+
+.details {
+    font-size: 13px;
+    font-family: unset;
+    list-style-type: none;
+}
+.get-in{
+    color: rgb(165, 159, 159);
+    font-size: 12px;
+}
+.lastSec-centre{
+    list-style-type: none;
+    font-size: 13px;
+    font-weight:600;
+    
+}
+.lastSec-centre:hover{
+    text-decoration:underline;
+}
+.menu-list:hover{
+    text-decoration:underline;
+}
+.menu-list{
+    list-style-type: none;
+    font-size: 13px;
+    font-weight:600;
+}
+.section-7 {
+    padding: 100px 0;
+    background-image: url(../assets/about_page/about-last-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 551px;
+    margin-top: 5%;
+}
+.sec7-bg img{
+    object-fit: contain;
+    padding-left: 3%;
+    height: 50%;
 }
 
 

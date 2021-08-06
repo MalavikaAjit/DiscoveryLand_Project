@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@font-face{
+    font-family: 'gotham';
+    src: url(../assets/fonts/GothamLight.ttf) format('truetype') ;
+    font-weight: 100;
+
+}
+.section-1{
+    /* background-v: url(../assets/home_page/DLC\ web\ hero\ 1.5min\ organized\ by\ property.mov.mp4); */
+    height: 100vh;
+    background-size: contain;
+    background-position:center;
+    position: relative;
+}
+.background-video{
+    min-width: 100%;
+    min-height: 100%;;
+    position: absolute;
+    z-index: -10;
+    margin-bottom: 100%;
+}
+.navbar-brand img{
+    width: 177px;
+}
+.nav-link{
+    color: seashell;
+    padding: 50px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: seashell;
+}
+.main-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.main-container h1{
+    color:#fff;
+    font-size: calc(26px + 4.2vw);
+    line-height: calc(14px + 4.2vw);
+    font-family: 'PT serif', serif;
+    transform: translateX(12vw);
+    
+}
+.main-container h1 span{
+    font-family: 'gotham';
+
+}
+.scroll{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 40px;
+    margin-bottom: 5em;
+}
+.scroll p {
+    font-family: 'gotham';
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.main-container p{
+    color: seashell;
+    text-align: start;
+    font-size: 4rem;
+    padding-left:21%;
+    font-family: unset;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+.scroll button{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 30px;
+    transform: translateY();
+}
+.scroll button svg{
+    fill: #fff;
+    transform: rotate(90deg);
+}
+
+
+.section-2 {
+    background-color: #fff;
+    /* height: 100vh; */
+    background-size: cover;
+}
+.section2-content {
+   padding: 10%;
+
+}
+.figure img{
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
+.para-1{
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:400;
+    color: rgb(73, 70, 70);
+}
+
+.s2-para{
+    display: flex;
+    text-align: left;
+    font-family: unset;
+    letter-spacing: 0.5px;
+    line-height: 2;
+
+}
+.col{
+    padding-right: 10%;
+}
+.s2-head{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+/*****section-3***/
+/* section-4 {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 5% 0;
+    overflow: hidden;
+    height: 420%;
+} */
+.section-3 {
+    /* background-color: rgb(224, 226, 224);
+    /* height: 100vh; 
+    background-size: cover; */
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 5% 0;
+    overflow: hidden;
+    height: 420%;
+}
+.golf{
+    padding: 5% 0;
+}
+.img-bg1 {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 30%;
+}
+.img-bg {
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    width: 78%;
+}
+.sec2-content{
+
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 35%;
+    padding: 7% 6%;
+    margin-left: 55%;
+    margin-top: 10%;
+
+}
+.first-head{
+    font-family: 'PT serif,serif';
+    font-size: 40px;
+    line-height: 2;
+}
+.first-para{
+    font-family: 'gotham';
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
