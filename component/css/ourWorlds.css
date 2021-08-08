@@ -163,7 +163,7 @@ body {
 }
 
 h1 {
-    font-family:'Messina',sans-serif;
+    font-family:'PT serif',sans-serif;
     text-transform: uppercase;
     font-size: .85rem;
     padding: 0;
@@ -188,7 +188,7 @@ p {
     margin-right: 10px;
 
 }
-.col-3{
+.gallery-margin{
     margin-bottom: 60px;
 
 }
