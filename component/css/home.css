@@ -300,12 +300,39 @@ html {
 }
 /***section 3**/
 .section-3 {
-    background-color: #fff;
+    /* background-color: #fff;
     height:160%;
-    padding: 50px 0;
+    padding: 50px 0; */
+    background-color: #fff;
+    /* height: 100vh; */
+    background-size: cover;
+    padding:10vw 0;
 
-   
 }
+#container {
+    position: relative;
+    height: 500px;
+     overflow: hidden; 
+    
+}
+.text1-text2 {
+    margin: 0px 100px;
+    padding-right:6%;
+}
+.section-3 .swiper-slide  img{
+    min-height:500px;
+    object-fit: cover;
+}
+.section-3 .swiper-slide{
+    overflow: hidden;
+} 
+.s2-head{
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: 'PT serif',serif;
+}
+ 
 .text1 {
     font-size: calc(30.66667px + 1.06667vw);
     font-family: gt-sectra;
@@ -314,52 +341,12 @@ html {
     padding-right: 40%; */
 }
 
-.text2 {
+ .text2 {
     font-size: calc(20.66667px + 1.06667vw);
     font-family: gotham;
     font-weight: 100;
     font-style: normal;
     /* padding-left: 20%; */
-}
-
-#container {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    
-}
-.text1-text2 {
-    margin: 0px 100px;
-    padding-right:6%;
-}
-.slider img {
-    border-color: black;
-    padding: 10px;
-    padding-bottom: 0px;
-     height: 250px; 
-    /* width: 100%; */
-    overflow: hidden;
-    object-fit: contain;
-    margin: 200px 0px;
-    
-}
-.slider {
-    position: absolute;
-    top: 0px;
-    left: 300px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: bannermove 15s linear infinite;
-    
-}
-
-@keyframes bannermove {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
 }
 .section-4 {
     background-color: #f5f5f5;
@@ -590,4 +577,5 @@ button{
     color: rgb(216, 216, 216);
     font-size: 60px;
     width: 40%;
+    cursor: pointer;
 }
