@@ -299,7 +299,7 @@
 .inner-pages.active{
     transform: translateY(0%);
 }
-.inner-pages nav svg{
+.inner-pages nav img{
     width: 32px;
 
 }
@@ -326,9 +326,16 @@
     height: 100vh;
     
 }
-.inner-pages .list li:hover{
+.inner-pages .list a{
+    text-decoration: none;
+}
+.inner-pages .list a:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+.inner-pages .list a:visited{
+    color: #fff;
+    text-decoration: none;
 }
 
 .close-menu{

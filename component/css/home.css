@@ -155,13 +155,7 @@ html {
     font-size: 13px;
     font-weight:600;
 }
-.copyright{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 /** front page **/
 .main-heading {
     padding: 0;

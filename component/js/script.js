@@ -22,3 +22,5 @@ const swiper = new Swiper('.swiper-container', {
       $('.inner-pages').removeClass('active');
     });
   });
+
+  

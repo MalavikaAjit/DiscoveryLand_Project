@@ -16,31 +16,42 @@
 </head>
 
 <body>
-    <div class="firstSection">
-        <div class="firstSection-1">
-            <header class="header">
-
-                <a class="logo" href="./home.html" target="_self">
-                    <img src="../assets/home_page/Capture.JPG" class="logo-img">
-                    <div class="title">
-                        <div class="title-top">Discovery</div>
-                        <div class="title-bottom">LAND COMPANY</div>
+ <div class="firstSection">
+        <!-- <div class="firstSection-1"> -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container main-container">
+                    <a class="navbar-brand" href="../pages/home.html"><img src="../assets/logo.svg" alt="logo" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about.html">About DLC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/ourWorlds.html">Our World</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/experiences.html">Experiences</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/press.html">Press</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link menubar" href="#">
+                                    <div class="menu-icon"><span></span></div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </a>
-
-                <div class="navbar">
-                    <ul class="list">
-                        <li class="item"><a class="item-list" href="../pages/about.html">About DLC</a></li>
-                        <li class="item"><a class="item-list" href="../pages/ourWorlds.html">Our Worlds</a></li>
-                        <li class="item"><a class="item-list" href="../pages/experiences.html">Experiences</a></li>
-                        <li class="item"><a class="item-list" href="../pages/gallery.html">Gallery</a></li>
-                        <li class="item"><a class="item-list" href="../pages/press.html">Press</a></li>
-                    </ul>
                 </div>
-            </header>
-        </div>
+            </nav>
+        <!-- </div>  -->
+        <section class="section-1">
         <!--margin top-->
-        <div class="container mt-5">
+        <div class="container mt-5 gallery-container">
             <div class="row mt-1 ">
                 <div class="col-lg-3 col-md-4 col-sm-12 gallery-margin">
                     <div>
@@ -243,7 +254,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer class="footer">
         <div class="footer-logo">
             <img  src="../assets/home_page/Capture.JPG" class="logo-img">
@@ -275,9 +286,28 @@
             </ul>
         </div>
     </footer>
-    <span class="copyright">
-        &copy; Discovery Land Company . All rights reserved.
-    </span>
+     <!---inner pages menubar    -->
+     <div class="inner-pages ">
+        <div class="container position-relative">
+           <nav class="d-flex justify-content-between align-items-center">
+               <img src="../assets/home_page/logo_symbol.svg" alt="">
+                    <div class="close-menu">
+                        X
+                    </div>
+            </nav>
+            <ul class="list">
+                <li><span> <a class="" href="">Magazines</a></span></li>
+                <li> <a class="" href="">Company</a></li>
+                <li> <a class="" href="">Foundation</a></li>
+                <li> <a class="" href="../pages/career.html">Career</a></li>
+                <li> <a class="" href="">Contact</a></li>
+            </ul>
+            </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
