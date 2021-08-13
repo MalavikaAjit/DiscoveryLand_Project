@@ -88,10 +88,8 @@
     transform: rotate(90deg);
 }
 /*************/
-.section-6,
-.section-2 ,
-.section-3,
-.section-5 {
+
+.section-2 {
     background-color: #fff;
     /* height: 100vh; */
     background-size: cover;
