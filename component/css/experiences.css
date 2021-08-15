@@ -93,7 +93,7 @@
     fill: #fff;
     transform: rotate(90deg);
 }
-
+/*****section-2***/
 
 .section-2 {
     background-color: #fff;
@@ -199,6 +199,15 @@
     margin-top: 78%;
     margin-left: 5%;
 }
+.sec3-content3 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 35%;
+    padding: 7% 6%;
+    margin-top: 145%;
+    margin-left: 55%;
+}
 .first-head{
     font-family: 'PT serif,serif';
     font-size: 40px;
@@ -237,15 +246,7 @@
     margin-top: 130%;;
 }
 
-.sec3-content3 {
-    position: absolute;
-    background-color: #fff;
-    z-index: 3;
-    width: 35%;
-    padding: 7% 6%;
-    margin-top: 145%;
-    margin-left: 55%;
-}
+
 .section-4 {
     padding: 100px 0;
     background-image: url(../assets/experience/ourWorlds.jpg);
